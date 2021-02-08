@@ -1,0 +1,4 @@
+/target
+*.wav
+*.dfpwm
+/arduino-ide/audio_stream/sounddata.h
