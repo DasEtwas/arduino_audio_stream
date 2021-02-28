@@ -80,7 +80,7 @@ fn main() {
                         .and_then(|size| {
                             if size > 240000 {
                                 // even using this size yielded verification failure using avrdude
-                                Err("Size exceeds 243KB".to_owned())
+                                Err("Size exceeds 240KB".to_owned())
                             } else {
                                 Ok(())
                             }

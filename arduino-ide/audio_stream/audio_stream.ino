@@ -12,7 +12,7 @@
 // tested maximum sample rates before audio begins skipping at a baud rate of 2_000_000:
 // STREAM_DFPWM: 42000Hz
 // STREAM_PCM:   90000Hz
-#define SAMPLE_RATE 44100UL
+#define SAMPLE_RATE 48000UL
 #endif
 #define BAUD_RATE 2000000
 
